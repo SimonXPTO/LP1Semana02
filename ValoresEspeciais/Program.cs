@@ -6,7 +6,16 @@ namespace ValoresEspeciais
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            Console.WriteLine(sbyte.MaxValue);
+            Console.WriteLine(byte.MaxValue);
+            Console.WriteLine(uint.MaxValue);
+            Console.WriteLine(long.MaxValue);
+            Console.WriteLine(float.MaxValue);
+            Console.WriteLine(double.MaxValue);
+            Console.WriteLine(ulong.MaxValue);
+            Console.WriteLine(Int128.MaxValue);
+            Console.WriteLine(short.MaxValue);
+            Console.WriteLine(decimal.MaxValue);
         }
     }
 }
