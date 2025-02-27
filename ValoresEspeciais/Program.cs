@@ -16,7 +16,7 @@ namespace ValoresEspeciais
             Console.WriteLine(Int128.MaxValue);
             Console.WriteLine(short.MaxValue);
             Console.WriteLine(decimal.MaxValue);
-            
+
             Console.WriteLine(sbyte.MinValue);
             Console.WriteLine(byte.MinValue);
             Console.WriteLine(uint.MinValue);
@@ -27,6 +27,15 @@ namespace ValoresEspeciais
             Console.WriteLine(Int128.MinValue);
             Console.WriteLine(short.MinValue);
             Console.WriteLine(decimal.MinValue);
+
+            Console.WriteLine(double.PositiveInfinity);
+            Console.WriteLine(double.NegativeInfinity);
+            Console.WriteLine(double.NaN);
+
+            Console.WriteLine(float.PositiveInfinity);
+            Console.WriteLine(float.NegativeInfinity);
+            Console.WriteLine(float.NaN);
+
         }
     }
 }
