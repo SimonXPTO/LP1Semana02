@@ -11,7 +11,7 @@ namespace GuessTheNumber
             int counter= 0;
             while(true)
             {
-                Console.Write("Insert number:");
+                Console.Write("Insert number: ");
                 string a= Console.ReadLine();
                 int b= int.Parse(a);
                 
