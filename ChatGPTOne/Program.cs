@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net;
+using System.Reflection.Metadata;
 using System.Runtime.InteropServices;
 
 namespace ChatGPTOne
@@ -8,7 +9,6 @@ namespace ChatGPTOne
     {
         private static void Main(string[] args)
         {
-            
             while(true)
             {
                 string question,response;
